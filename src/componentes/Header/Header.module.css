@@ -1,0 +1,36 @@
+.header-background {
+    background-color: #F3742D;
+    height: 300px;
+}
+
+.header-logo {
+    height: 300px;
+    right: 550px;
+
+    position: absolute;
+}
+
+.header-links {
+    right: 50px;
+    padding: 50px;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #FFBD59;
+}
+
+.link {
+    font-size: 18px;
+    color: #13315C;
+}
+
+.linkAtivo {
+    font-weight: 600;
+}

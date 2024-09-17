@@ -1,0 +1,43 @@
+.h1 {
+    color: #FFBD59;
+    padding-bottom: 50px;
+}
+
+.carrousel ul {
+    height: 50px;
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carrousel ul li {
+    background-color: #FFBD59;
+    padding: 25px;
+    display: block;
+    border-radius: 10px;
+}
+
+.carrousel ul li img {
+    max-width: 150px;
+    background-color: #13315C;
+}
+
+.carrousel ul li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrousel ul li h1 {
+    font-size: 18px;    
+    margin: 0;
+}
+
+.carrousel ul li p {
+    color: #13315C;
+    font-style: italic;
+}
